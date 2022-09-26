@@ -13,6 +13,8 @@ namespace NuevoCSharp
             int resultado = Multiplicacion(mul, mul2, mul3);
             Console.WriteLine(resultado);
             palomo();
+
+            Console.WriteLine("HOla Mundo");
         }
 
         static int Multiplicacion(int m, int m2, int m3)
