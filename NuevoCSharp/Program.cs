@@ -12,9 +12,11 @@ namespace NuevoCSharp
             int mul3 = 8;
             int resultado = Multiplicacion(mul, mul2, mul3);
             Console.WriteLine(resultado);
-            palomo();
+            Prueba();
 
             Console.WriteLine("HOla Mundo");
+
+
         }
 
         static int Multiplicacion(int m, int m2, int m3)
@@ -23,7 +25,7 @@ namespace NuevoCSharp
             return m * m2 * m3;
         }
 
-        static void palomo()
+        static void Prueba()
         {
             Console.WriteLine("Probando Metedos");
             int algo = Convert.ToInt32(Console.ReadLine());
