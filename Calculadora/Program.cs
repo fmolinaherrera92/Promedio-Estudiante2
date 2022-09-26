@@ -15,6 +15,7 @@ namespace Calculadora
             Console.WriteLine("3-Division");
             Console.WriteLine("3-Division");
             Console.WriteLine("4-Multiplicacion");
+            Console.WriteLine("Probando GIt");
             int calc = Convert.ToInt32(Console.ReadLine());
 
             switch (calc)
