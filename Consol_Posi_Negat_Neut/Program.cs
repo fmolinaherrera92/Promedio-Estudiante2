@@ -132,7 +132,7 @@ namespace Consol_Posi_Negat_Neut
             #endregion
 
             #region  precio de un producto
-            /**
+            
             float efectivo = 0;
             float Sobra = 0;
             string tarjeta = "12345";
@@ -158,7 +158,7 @@ namespace Consol_Posi_Negat_Neut
                     }
                     else if (efectivo > prod)
                     {
-                        Console.WriteLine("DE volver:" + " " + Sobra);
+                        Console.WriteLine($"DE volver:{Sobra}"   );
                         Console.ReadKey();
                     }
                     break;
@@ -182,7 +182,7 @@ namespace Consol_Posi_Negat_Neut
 
                 default:
                     break;
-            }**/
+            }
             #endregion
 
             #region Recorre los números del 1 al 100. Usa un bucle for.
@@ -329,7 +329,7 @@ namespace Consol_Posi_Negat_Neut
             }
             if (menor == 1)// En caso de que se ingrese todos +
                 menor = 0;
-            Console.Write("La suma de los números Positivos es " + mayor + " y el producto de los Negativos es:" + menor);
+            Console.Write($"La suma de los números Positivos es {mayor} y el producto de los Negativos es: {menor}");
             Console.ReadKey();
 
 
