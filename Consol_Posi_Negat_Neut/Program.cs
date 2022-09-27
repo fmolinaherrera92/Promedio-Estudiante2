@@ -53,7 +53,7 @@ namespace Consol_Posi_Negat_Neut
 
            while (Limite <= cantidad)
            {
-               Console.WriteLine("Digite un Numero " + Limite);
+               Console.WriteLine($"Digite un Numero {Limite}");
                int numero = Convert.ToInt32(Console.ReadLine());
 
                if (numero < 0)
@@ -72,9 +72,9 @@ namespace Consol_Posi_Negat_Neut
                Limite++;
            }
 
-           Console.WriteLine("Negativo" + " " + negativo);
-           Console.WriteLine("Positivo" + " " + positivo);
-           Console.WriteLine("Neutro" + " " + neutro);
+           Console.WriteLine($"Negativo{negativo}" );
+           Console.WriteLine($"Positivo {positivo}");
+           Console.WriteLine($"Neutro {neutro}" );
 
            int aunmentar = 0;
            int contadorAnterior = 0;
@@ -87,7 +87,7 @@ namespace Consol_Posi_Negat_Neut
                contadorAnterior = lim;
            }
            Console.WriteLine(aumentarStr);
-           Console.WriteLine("Total es: " + aunmentar);**/
+           Console.WriteLine($"Total es: {aunmentar}");
             #endregion
 
             #region NumeroMayorMenor
@@ -302,9 +302,9 @@ namespace Consol_Posi_Negat_Neut
             #endregion
 
 
-            algo();
+            //algo();
         }
-
+        /**
         static void algo() 
         {
             float num, mayor = 0, menor = 1, x = 0;
@@ -333,7 +333,7 @@ namespace Consol_Posi_Negat_Neut
             Console.ReadKey();
 
 
-        }
+        }**/
     }
 
 }
